@@ -1,0 +1,24 @@
+body { padding: 10px; }
+#mainbox { margin-top:10px; }
+.container { width: 100%;  max-width: 960px; }
+body {
+  line-height: 180%;
+}
+h1 { color:#c00; text-align: center; }
+h1 i { font-size: 15px; color: #333; font-style: normal;}
+pre{margin:1em 0;font-size:12px;background-color:#eee;padding:8px;color:#444;overflow:auto;border:0px;}
+pre::-webkit-scrollbar{height:8px;width:8px;}
+pre code{padding:0!important;font-size:12px!important;background-color:#eee!important;border:none!important; display:inline-block; }
+code{font-size:12px!important;background-color:	#104E8B!important;color:#444!important;padding:0 .2em!important;border:1px solid #dedede!important;}
+
+.box { margin-bottom:18px; }
+.box h5 { font-size:18px; margin-top:10px;  margin-bottom:10px; }
+.ruby_list li { line-height:180%; font-size:14px; list-style-type: square;}
+.sync_info { padding:10px; background:#53868B; color:#C73E22; border:1px solid #53868B; }
+.sync_info .time { color:#7AC5CD;  font-size:18px; margin:0 8px; font-weight:bold; }
+
+
+.highlight .c{color:#aaa;font-style:italic;}
+.highlight .nv{color:#1c8dc8;}
+.highlight .s1{color:#2c963a;}
+.footer { padding-bottom:30px; }
