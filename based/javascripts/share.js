@@ -1,1 +1,16 @@
-window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"6","bdPos":"right","bdTop":"100"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"鍒嗕韩鍒帮細","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+$(function() {
+	// 悬浮窗口
+	$(".yb_conct").hover(function() {
+		$(".yb_conct").css("right", "5px");
+		$(".yb_bar .yb_ercode").css('height', '200px');
+	}, function() {
+		$(".yb_conct").css("right", "-127px");
+		$(".yb_bar .yb_ercode").css('height', '53px');
+	});
+	// 返回顶部
+	$(".yb_top").click(function() {
+		$("html,body").animate({
+			'scrollTop': '0px'
+		}, 300)
+	});
+});
